@@ -35,14 +35,19 @@ public class GameEndActivity extends AppCompatActivity {
             }
         });
 
-        // находиим виджет для вывода сообщения
-        TextView messTextView = findViewById(R.id.text_view_mess);
-        Intent intent = getIntent();
-        String message = intent.getStringExtra("message");
-        messTextView.setText(message);
+        // выводим сообщение
+        showMessage();
     }
 
     public void onBackClick(View v) {
         finish();
+    }
+
+    private void showMessage() {
+        // находиим виджет и выводим сообщение
+        TextView messTextView = findViewById(R.id.text_view_mess);
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("message");
+        messTextView.setText(message);
     }
 }
