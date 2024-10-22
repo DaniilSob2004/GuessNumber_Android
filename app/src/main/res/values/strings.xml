@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="title_game">Guess The Number Game</string>
+    <string name="menu">Menu</string>
+    <string name="bot_menu">Bot</string>
+    <string name="user_menu">User</string>
+    <string name="rules">Rules</string>
+    <string name="back_to_menu">Back to menu</string>
+    <string name="back">Back</string>
+    <string name="rules_header">Rules of the game \'Guess the number\':\n\n</string>
+    <string name="rules_1">1. Select a number</string>
+    <string name="rules_2">2. You will have attempts</string>
+    <string name="rules_3">3. After each attempt, you will receive a hint whether your number was greater or less than the guessed number.\n</string>
+    <string name="rules_4">4. The game ends when you guess the number or exhaust all attempts.\n</string>
+    <string name="rules_footer">\nGood luck and enjoy the game!</string>
+    <string name="user_game">User Game</string>
+    <string name="attempts_left">Attempts left:</string>
+    <string name="input_number">Input number</string>
+    <string name="send">Send</string>
+    <string name="user_num_info">Your number is</string>
+    <string name="hidden_number">Input the hidden number</string>
+    <string name="bot_game">Bot Game</string>
+</resources>
